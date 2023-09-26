@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Reset some default styles */
+* {
+    font-family: 'Roboto Condensed', sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: inline-table;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 200px;
+}
+
+header nav ul {
+    list-style: none;
+    padding-left: 800px;
+}
+
+header nav ul li {
+    display: inline;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style main content */
+.main-content {
+    height: 600px;
+    background-image: url(Assets/rental.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main-content h2{
+    font-size: 24px;
+    padding: 20px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding-bottom: 20px;
+    color: white;
+    
+}
+
+.main-content p{
+    font-size: 24px;
+    padding: 20px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding-bottom: 20px;
+    color: white;
+    
+}
+
+/* Style Learn More button */
+.learn-more-button {
+    background-color: #54a1f3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 11%;
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Style services section */
+.services {
+    background-color: black;
+    padding: 20px;
+}
+
+.services h2{
+    font-size: 24px;
+    color: white;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services li {
+    font-size: 18px;
+    padding: 20px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.services h4 {
+    font-size: 18px;
+    padding: 20px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding-bottom: 20px;
+    color: white;
+}
+
+/* Style contact section */
+.contact {
+    padding: 20px;
+}
+
+.contact th{
+    text-align: left;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
